@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="icon" href="./imgs/logo.png">
+  <title>Bootstrap Travel Co</title>
+</head>
+<div class="container">
+
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">
+              <img src="./imgs/logo.png" width="30" height="30" alt="" class="mb-1">
+            Bootstrap Travel Co
+            </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mb-1">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#offers">Offers</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+              
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+    
+     
+
+    <div class="container "style="border-bottom: 1px solid grey !important">
+      <h3>
+        Travel Locations
+      </h3>
+      <div class="row">
+        <div class="col-md-4 mb-5">
+          <!-- image here-->
+          <img src="./imgs/beach.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-md-4 mb-5">
+          <img src="./imgs/forest.jpg" class="img-fluid" alt="Responsive image">
+          <!-- image here-->
+        </div>
+        <div class="col-md-4 mb-5">
+          <img src="./imgs/mtns.jpg" class="img-fluid" alt="Responsive image">
+          <!-- image here-->
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-4 mb-4">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- Modal -->
+            <div class="modal fade" id="offersModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Exclusive Offer Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div id="offers">
+              <div class="card-body">
+                <h5 class="card-title">Exclusive Offers</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.                
+                </p>
+                <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#offersModal">View More &rsaquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!-- Modal -->
+            <div class="modal fade" id="destinationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Destination Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div  id="about">
+              <div class="card-body">
+                <h5 class="card-title">Destinations</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                
+                </p>
+                <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#destinationModal">View More &rsaquo;</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <!-- Modal -->
+            <div class="modal fade" id="pricesModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Best Prices Details</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div >
+              <div class="card-body">
+                <h5 class="card-title">The Best Prices</h5>
+                <p class="card-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#pricesModal">View More &rsaquo;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="pt-4 mb-5" style="border-top: 1px solid grey" id="contact">
+        <h3 style="text-align:center;">
+            Contact Us
+          </h3>
+       
+      <form class="mx-auto" style="width: 400px;">
+        <div class="form-group">
+          <label for="exampleInputEmail1">What is your name?</label>
+          <input type="text" class="form-control" aria-describedby="emailHelp" placeholder="Jane Doe">
+        </div>
+        <div class="form-group">
+          <label for="email">What is your email address?</label>
+          <input type="email" class="form-control" placeholder="jane@test.com">
+        </div>
+        <div class="form-group">
+            <label for="comments">Comments</label>
+          <textarea class="form-control" id="comments" rows="3" placeholder="Do you advise on trips to..."></textarea>
+        </div>
+        <div  class="text-center">
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+
+      </form>
+    </div>
+
+    <!--Footer-->
+    <footer class="page-footer" style="border-top: 1px solid grey">
+
+
+      <!--Copyright-->
+      <div class="footer-copyright py-3 text-center">
+        <div class="container-fluid">
+          © 2018 Copyright:
+          <a target="_blank" href="http://will-bunker.com/"> BTC </a>
+        </div>
+      </div>
+      <!--/Copyright-->
+
+    </footer>
+    <!--/Footer-->
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  crossorigin="anonymous"></script>
+  <script>
+  // Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+  </script>
+</body>
+
+</html>
